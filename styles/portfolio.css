@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mary {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.headline {
+    color: #FD6E0A;
+}
+
+nav li {
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border-style: none;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-left: 226px;
+    padding-right: 236px;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    /* background-position: left; */
+    background-position: left, bottom right;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+}
+
+.banner-img-container {
+    display: flex;
+    /* gap:130px; */
+    margin-top: 160px;
+
+}
+
+.banner-img-container div {
+    /* padding-right: 150px; */
+    /* padding-bottom:184px; */
+    padding-top: 100px;
+}
+
+.banner-intro {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-title {
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+/* main style  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style  */
+.about {
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    gap:12px;
+}
+.about-info{
+    color: #757575;
+    font-size:20px;
+}
+.about-info-name{
+   font-size: 20px;
+   font-weight: 700;
+}

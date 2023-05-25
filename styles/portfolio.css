@@ -35,35 +35,52 @@ nav ul {
     background: #FD6E0A;
     border-radius: 5px;
     border-style: none;
-    padding: 18px 35px;
+    padding: 18px 25px;
     font-weight: 700;
     font-size: 20px;
     color: white;
+    margin-right: 14px;
+}
+  .btn-secondary{
+   
+    height: 64px;
+    background: #FFF8F3 ;
+    border-radius: 5px;
+    border:1px solid #FD6E0A;
+    padding: 18px 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
 }
 
+
+
 .banner {
+    background: #FFF8F3;
     padding-top: 50px;
-    padding-left: 226px;
-    padding-right: 236px;
+    padding-left: 220px;
+    padding-right: 100px;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     /* background-position: left; */
     background-position: left, bottom right;
     background-repeat: no-repeat;
     margin-bottom: 130px;
+
 }
 
 .banner-img-container {
     display: flex;
-    /* gap:130px; */
+    gap: 100px;
     margin-top: 160px;
 
 }
 
 .banner-img-container div {
-    /* padding-right: 150px; */
+    /* margin-right: 100px; */
     /* padding-bottom:184px; */
     padding-top: 100px;
 }
+
 
 .banner-intro {
     color: #474747;
@@ -81,6 +98,7 @@ nav ul {
 .banner-description {
     color: #757575;
     font-size: 18px;
+    margin-bottom:30px;
 }
 
 /* main style  */
@@ -128,25 +146,29 @@ main {
 }
 
 /* what i do style  */
-.what-i-do{
-    padding-top:130px;
+.what-i-do {
+    padding-top: 130px;
+    margin-bottom: 130px;
 }
+
 .what-i-do .section-description {
-    padding-left:  230px;
+    padding-left: 230px;
     padding-right: 230px;
 }
 
 .what-i-do-container {
     display: flex;
     gap: 24px;
-    margin-left:230p
+    margin-left: 230p
 }
-.what-i-do-items{
-   padding:50px 30px;
-    
+
+.what-i-do-items {
+    padding: 50px 30px;
+
 }
-.what-i-do .section-description{
-    margin-bottom:50px;
+
+.what-i-do .section-description {
+    margin-bottom: 50px;
 }
 
 .what-i-do-items {
@@ -157,8 +179,118 @@ main {
 }
 
 .i-do-items-title {
-    margin-bottom:20px;
-    margin-top:30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-.skill-description {}
+/* resume style */
+.resume .section-title {
+    margin-bottom: 120px;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 180px;
+    /* padding-left: 180px; */
+
+    /* padding-right: 250px; */
+}
+
+.main-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.degree-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.degree-subtitle {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.degree-description {
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+.resume-btn {
+     
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    
+}
+
+/* footer style  */
+.contact {
+    background: #FFF8F3;
+
+}
+
+.contact-info-container {
+    display: flex;
+    gap: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* padding:100px 230px; */
+
+}
+
+/* .contact input[type="text"],
+input[type="email"],
+textarea { 
+    /* display: block; */
+/* border:none;
+    margin-bottom:18px;
+    padding: 18px 30px;
+    width: 100%; */
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    /* height: 64px; */
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+
+
+
+}
+
+.contact-info-container input[type="text"],
+input[type="email"] {
+    height: 64px;
+    width: 100%;
+}
+
+.contact-info-container textarea {
+    width: 100%;
+}
+
+
+
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    color: #474747;
+}
